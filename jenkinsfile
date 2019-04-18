@@ -9,7 +9,7 @@ pipeline {
     stage ('bulid'){
         steps{
 
-        sh "python -h"
+        sh "python -u /Users/alshamari/re/application/api.py"
         }
     }
 
